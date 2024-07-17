@@ -84,6 +84,28 @@ Ao executar o script, você verá um menu interativo com as seguintes opções:
 
 ```
 
+## Testes
+
+### Execução
+
+1. **Baixe os arquivos**:
+    - Baixe todos os arquivos localizados em  `src`.
+
+2. **Acesse o diretório**:
+    - Abra o terminal e navegue até o diretório onde os arquivos foram baixados.
+
+3. **Execute o script**:
+    - No terminal, execute o comando:
+    ```
+    go run .
+    ```
+
+4. **Interaja com o menu**:
+    - Siga as instruções no terminal para interagir com o menu e visualizar os relatórios gerados.
+
+
+---
+
 
 ## English Version
 
@@ -167,3 +189,22 @@ When you run the script, you will see an interactive menu with the following opt
 }
 
 ```
+
+## Tests
+
+### Execution
+
+1. **Download the files**:
+    - Download all the files located in `src`.
+
+2. **Navigate to the directory**:
+    - Open the terminal and navigate to the directory where the files were downloaded.
+
+3. **Run the script**:
+    - In the terminal, execute the command:
+    ```
+    go run .
+    ```
+
+4. **Interact with the menu**:
+    - Follow the instructions in the terminal to interact with the menu and view the generated reports.
