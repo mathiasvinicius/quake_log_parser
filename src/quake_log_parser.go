@@ -66,7 +66,7 @@ func main() {
 	// Inicializar variáveis
 	players := make(Set)
 	deathCauses := make(Set)
-	gameCounter := 1
+	gameCounter := 0
 	total_kills := 0
 
 	// Variáveis para armazenar o relatório
@@ -109,7 +109,7 @@ func main() {
 
 		// Checar por nova partida
 		if strings.Contains(line, "InitGame") {
-			if gameCounter > 1 {
+			if gameCounter > 0 {
 
 				// Adicionar dados ao relatório
 				reportPlayers.WriteString(fmt.Sprintf("\"game_%d\": {\n\"total_kills\": %d,\n", gameCounter, total_kills))
